@@ -5,8 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Timer.lvclass" Type="LVClass" URL="../_TimerClass/Timer.lvclass">
+	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Timer.lvclass" Type="LVClass" URL="../_TimerClass/Timer.lvclass"/>
 	</Item>
 	<Item Name="TimerEngine.lvclass" Type="LVClass" URL="../TimerEngine.lvclass"/>
 	<Item Name="test.Launcher.vi" Type="VI" URL="../test.Launcher.vi"/>
