@@ -4,6 +4,8 @@
 
 ## API：
 
+![image](https://user-images.githubusercontent.com/8196752/61704971-7bb9d300-ad77-11e9-9d8e-3082c92ad8f6.png)
+
  - `Register.vi` : 订阅 Timer
     - `Name`：Timer 名称
     - `TimerPeroid`： 时间间隔
