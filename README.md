@@ -4,15 +4,12 @@
 
 ## API：
 
-![image](https://user-images.githubusercontent.com/8196752/61704971-7bb9d300-ad77-11e9-9d8e-3082c92ad8f6.png)
+![image](https://user-images.githubusercontent.com/8196752/61720010-9486b080-ad98-11e9-9bbf-f759a0e040fb.png)
 
  - `Register.vi` : 订阅 Timer
     - `Name`：Timer 名称
-    - `TimerPeroid`： 时间间隔
+    - `TimerPeroid(ms)`： 时间间隔
     - `Start?`: 是否立即启用
-
- - `unRegister.vi` 取消订阅 Timer
-    - `Name`：Timer 名称
 
  - `Enable.vi` 启用 Timer
     - `Name`：Timer 名称
@@ -22,4 +19,17 @@
     - `Name`：Timer 名称
     - `NewName`: 新名称
 
+ - `ChangePeroid.vi` 修改 Timer 时间间隔
+    - `Name`：Timer 名称
+    - `TimePeroid(ms)`: 时间间隔
+
+ - `Status.vi` Timer 状态
+    - `Name`：Timer 名称
+    - `Exist?`: Timer 是否存在
+    - `TimePeroid(ms)`：Timer 时间间隔
+    - `Start?`：是否已经启用
+    - `EclipsedTime(ms)`：已经经过的时间
+
+ - `unRegister.vi` 取消订阅 Timer
+    - `Name`：Timer 名称
 
