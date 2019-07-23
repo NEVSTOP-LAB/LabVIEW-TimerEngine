@@ -11,4 +11,5 @@
 	</Item>
 	<Item Name="TimerEngine.lvclass" Type="LVClass" URL="../TimerEngine.lvclass"/>
 	<Item Name="test.Launcher.vi" Type="VI" URL="../test.Launcher.vi"/>
+	<Item Name="_ViTree.vi" Type="VI" URL="../_ViTree.vi"/>
 </Library>
