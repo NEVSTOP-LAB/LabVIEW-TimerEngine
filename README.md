@@ -2,7 +2,7 @@
 
 使用 UserEvent 实现的 Timer 功能。后台使用一个 Timed Loop 进行定时，到达指定时间后，使用 UserEvent 通知订阅 Timer 的模块。
 
-## API：
+## API
 
 ![image](https://user-images.githubusercontent.com/8196752/61720010-9486b080-ad98-11e9-9bbf-f759a0e040fb.png)
 
@@ -33,3 +33,6 @@
  - `unRegister.vi` 取消订阅 Timer
     - `Name`：Timer 名称
 
+## Dependencies
+
+1. OpenG Array Library
