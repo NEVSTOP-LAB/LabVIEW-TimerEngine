@@ -19,6 +19,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="NEVSTOP_TimerEngine.vipb" Type="Document" URL="../NEVSTOP_TimerEngine.vipb"/>
 		<Item Name="TimerEngine.lvlib" Type="Library" URL="../TimerEngine/TimerEngine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
