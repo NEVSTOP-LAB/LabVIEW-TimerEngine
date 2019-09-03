@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-08-11 17:44:34" Modified_Date="2019-08-11 17:51:20" Creator="yao" Comments="" ID="6b28ba7f816650838c819e7dc11c8931">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-08-11 17:44:34" Modified_Date="2019-09-03 20:33:28" Creator="yao" Comments="" ID="25bc62b2879bb54dfd02826abbd0199b">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_NEVSTOP_TimerEngine</Package_File_Name>
-    <Library_Version>0.1.0.3</Library_Version>
+    <Library_Version>0.1.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>TimerEngine</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -69,7 +69,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/nevstop/LabVIEW-TimerEngine</URL>
-      <Release_Notes/>
+      <Release_Notes>ÐÞ¸Ä Thread/Wait VI µÄ Execute System #11</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -148,9 +148,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>

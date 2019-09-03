@@ -19,6 +19,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Get ExecPriority.vi" Type="VI" URL="../../../../_workingOn/Transformers/Transformers_Dev/Transformers_SMO/Get ExecPriority.vi"/>
+		<Item Name="Get ExecSys.vi" Type="VI" URL="../../../../_workingOn/Transformers/Transformers_Dev/Transformers_SMO/Get ExecSys.vi"/>
 		<Item Name="NEVSTOP_TimerEngine.vipb" Type="Document" URL="../NEVSTOP_TimerEngine.vipb"/>
 		<Item Name="TimerEngine.lvlib" Type="Library" URL="../TimerEngine/TimerEngine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -216,6 +218,9 @@
 				<Item Name="Sort 2D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U32)__ogtk.vi"/>
 				<Item Name="Sort 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U64)__ogtk.vi"/>
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
+			</Item>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
