@@ -1,5 +1,7 @@
 # LabVIEW-TimerEngine
 
+[![Check_Broken_VIs](https://github.com/NEVSTOP-LAB/LabVIEW-TimerEngine/actions/workflows/Check_Broken_VIs.yml/badge.svg)](https://github.com/NEVSTOP-LAB/LabVIEW-TimerEngine/actions/workflows/Check_Broken_VIs.yml)
+
 使用 UserEvent 实现的 Timer 功能。后台使用一个 Timed Loop 进行定时，到达指定时间后，使用 UserEvent 通知订阅 Timer 的模块。
 
 ## API
